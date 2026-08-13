@@ -21,7 +21,6 @@ python nyquist.py
 ## Example Output
 
 ```text
-$ python main.py
 Sampling rate: 44100
 Nyquist frequency: 22050.0 Hz
 
