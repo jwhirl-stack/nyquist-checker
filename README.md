@@ -17,30 +17,14 @@ A light Python command-line utility that computes the Nyquist frequency for a gi
 python nyquist.py
 
 ---
-## Example Outputs
 
-Sampling rate: 44100
-Nyquist frequency: 22050.0 Hz
+## Example Output
 
-Target frequency: 15000
-15000.0 Hz is SAFE (below Nyquist)
-
----
-
+```text
 $ python main.py
-
-Sampling rate: 44100
-Nyquist frequency: 22050.0 Hz
-
-Target frequency: 22050
-22050.0 Hz is AT the Nyquist limit (critical boundary)
-
----
-
-$ python main.py
-
 Sampling rate: 44100
 Nyquist frequency: 22050.0 Hz
 
 Target frequency: 28000
 28000.0 Hz will ALIAS below Nyquist
+```
